@@ -1,0 +1,63 @@
+.topbar{
+    width: 100vw;
+    height: 60px;
+    position: fixed;
+    z-index: 4;
+    display: flex;
+    padding-top: 20px;
+    overflow: hidden;
+}
+.left{
+    flex: 1;
+    margin-left: 60px;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+}
+.logo{
+    width: 60px;
+    height: 60px;
+}
+.logoText{
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.center{
+    flex: 2;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.centerContent{
+    display: flex;
+    align-items: center;
+}
+
+@media only screen and (max-width:940px){
+    .logoText{
+        display: none;
+    }
+    .topbar{
+        width: 100vw;
+        height: 60px;
+        position:absolute;
+        z-index: 4;
+        display: flex;
+        padding-top: 20px;
+        overflow: hidden;
+    }
+    .left{
+        margin-top: 30px;
+        margin-left: 20px;
+    }
+    .logo{
+        width: 50px;
+        height: 50px;
+    }
+    .center{
+        flex: 5;
+    }
+}
+
+

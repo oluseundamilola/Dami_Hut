@@ -1,0 +1,42 @@
+.spantext{
+    cursor: pointer;
+    width: 100px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+    background-color: rgb(221, 250, 221);
+    margin-left: 20px;
+    text-decoration: none;
+    color: black;
+}
+
+.spantext.active{
+    background-color: rgb(64, 64, 64);
+    color: white;
+    width: 100px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+    cursor: pointer;
+    margin-left: 20px;
+    text-decoration: none;
+
+}
+.tag{
+    text-decoration: none;
+    color: none;
+}
+
+
+@media only screen and (max-width:940px){
+    .spantext{
+        width: 76px;
+    }
+    .spantext.active{
+        width: 76px;
+    }
+}

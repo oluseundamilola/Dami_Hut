@@ -1,0 +1,92 @@
+
+    .home{
+        background-color: rgb(255, 255, 255);
+        width: 100vw;
+        height: 100vh;
+        overflow: hidden;
+    }
+    .homeContainer{
+        padding-top: 60px;
+        display: flex;
+        position: relative;
+        overflow: hidden;
+    }
+    .homeTextContainer{
+        flex: 1;
+        margin-top: 260px;
+        margin-left: 60px;
+        display: flex;
+        flex-direction: column;
+    }
+    .heading{
+        font-size: 48px;
+        font-weight: 500;
+        color: #5CAC0E;
+        margin-bottom: 10px;
+    }
+    .subHeading{
+        font-size: 38px;
+        font-weight: 400;
+        color: rgb(50, 50, 50);
+        margin-bottom: 20px;
+    }
+    
+    .homepicture{
+        flex: 2;
+        z-index: 2;
+        position: relative;
+    }
+    .centerImg{
+        position: absolute;
+        top: 280px;
+        left: 340px;
+    }
+    .centerImg2{
+        position: absolute;
+        top: 210px;
+        right: 630px;
+    }
+    .centerImg3{
+        position: absolute;
+        top: 190px;
+        right: 8px;
+    }
+    .text{
+        font-size: 15px;
+        color: rgb(103, 103, 103);
+        padding: 12px 0px;
+    }
+    .homeButton{
+        width: 200px;
+        height: 50px;
+        margin-top: 12px;
+        border: none;
+        outline: none;
+        border-radius: 20px;
+        background-color: #5CAC0E;
+        color: white;
+        font-size: 21px;
+        cursor: pointer;
+    
+    }
+
+
+    
+
+.coverImg{
+    position: absolute;
+    bottom: 20px;
+    left: 80px;
+    overflow: hidden;
+    opacity: 1;
+    z-index: 0;
+}
+
+@media only screen and (max-width:940px){
+    .homeContainer{
+        flex-direction: column;
+    }
+    .homepicture{
+        margin-left: 140px;
+    }
+}
